@@ -9,4 +9,8 @@ class BukuTamuController extends Controller
     public function index(){
         return view('bukuTamu.index');
     }
+
+    public function create(){
+        return view('bukuTamu.create');
+    }
 }
