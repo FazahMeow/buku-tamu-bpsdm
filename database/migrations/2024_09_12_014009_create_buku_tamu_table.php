@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('buku_tamu', function (Blueprint $table) {
             $table->id();
+            $table->string('nama');
+            $table->string('nohp');
+            $table->string('email');
+            $table->string('instansi');
+            $table->string('tujuan');
+            $table->text('keterangan');
             $table->timestamps();
         });
     }
