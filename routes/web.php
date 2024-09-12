@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 Route::get('/home', [BukuTamuController::class, 'index'])->name('home.index');
 Route::get('/home/form', [BukuTamuController::class, 'create'])->name('home.create');
+Route::post('/home', [BukuTamuController::class, 'store'])->name('home.store');

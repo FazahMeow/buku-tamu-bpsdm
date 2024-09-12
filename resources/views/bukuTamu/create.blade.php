@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Fill this form</h1>
-    <form method="post" action="">
+    <form method="post" action="{{route('home.store')}}">
         <div>
             <label>Nama</label>
             <input type="text" name="nama" placeholder="Isi nama lengkap"/>

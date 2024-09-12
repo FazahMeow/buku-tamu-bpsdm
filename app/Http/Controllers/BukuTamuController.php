@@ -13,4 +13,8 @@ class BukuTamuController extends Controller
     public function create(){
         return view('bukuTamu.create');
     }
+
+    public function store(Request $request){
+        dd($request);
+    }
 }
